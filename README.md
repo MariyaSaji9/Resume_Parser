@@ -17,16 +17,13 @@ pip install -r requirements.txt
 
 ### Download NLTK Data
 
-import nltk
-
-nltk.download("punkt")
-
+import nltk  
+nltk.download("punkt")  
 nltk.download("stopwords")
 
 ### Install and Configure ngrok
 
-pip install pyngrok
-
+pip install pyngrok  
 ngrok authtoken YOUR_NGROK_AUTH_TOKEN
 
 ## Usage
